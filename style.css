@@ -1,0 +1,111 @@
+*{margin:0 auto; padding:0;}
+body{font-size:12px; color:#333;}
+li{list-style:none;}
+.clear{clear:both;}
+
+.top{width:100%; background:url(images/topBg.jpg) repeat-x; height:98px;}
+.topCon{width:960px; margin:0 auto;}
+.logo{float:left; width:300px; margin-top:10px;}
+.topRight{float:right; width:260px; margin-top:15px;}
+.topRight1{width:260px; text-align:center; line-height:28px;}
+.topRight1 a{color:#333; text-decoration:none;}
+.topRight1 a:hover{text-decoration:underline;}
+
+.search{width:180px; margin:10px auto 0;}
+.searchInput{float:left; width:145px;}
+.searchInputBg{background:url(images/searchBg.jpg) no-repeat; width:133px; height:23px; border:none; line-height:23px; color:#848484; padding:0 3px;}
+.searchBtn{float:right; width:30px;}
+
+.banner{background:url(images/banner.jpg) no-repeat center; height:216px; overflow:hidden; margin-bottom:10px;}
+.nav{width:840px; margin:180px auto 0; height:30px; line-height:30px; color:#fff; font-family:"微软雅黑", "黑体"; font-size:16px; font-weight:bold;}
+.nav li{float:left; width:120px; text-align:center; word-spacing:20px;}
+.nav a{color:#fff; text-decoration:none;}
+.nav a:hover{text-decoration:underline;}
+
+.main{width:960px; margin:0 auto;}
+.mainLeft{float:left; width:684px;}
+.mainRight{float:right; width:270px;}
+
+.news{width:662px; border:1px solid #ddd; padding:10px; font-size:14px; margin-bottom:10px; height:471px; overflow:hidden;}
+.newsCon{width:662px; height:225px; position:relative;}
+.newsConLeft{float:left; width:300px;}
+.newsConRight{float:right; width:360px; font-size:14px; line-height:24px;}
+.newsConRight h2{font-size:16px; color:#000563; line-height:30px; text-align:center;}
+.newsConRight h2 a{color:#000563; text-decoration:none;}
+.newsConRight h2 a:hover{color:#f00; text-decoration:underline;}
+.newsLine{width:662px; height:1px; border-top:1px dotted #ccc; margin:10px 0; overflow:hidden;}
+.newsCon a{color:#f00; text-decoration:underline;}
+.newsCon a:Hover{text-decoration:none;}
+.newsCon p{text-indent:30px;}
+.newsConmore{position:absolute; right:10px; bottom:0;}
+
+.videoPic{width:270px; height:199px;}
+.videoText{width:268px; border:1px solid #ddd; border-top:none; margin-bottom:10px; padding:5px 0; height:49px;}
+.videoText li{background:url(images/videoIcon.jpg) no-repeat 5px 8px; font-size:14px; line-height:24px; padding-left:25px;}
+.videoText a{color:#000; text-decoration:none;}
+.videoText a:hover{color:#f00; text-decoration:underline;}
+
+.dydjs{width:268px; border:1px solid #ddd; margin-bottom:10px; height:222px;}
+.dydjsTit{background:url(images/titBg.jpg) no-repeat; line-height:29px; height:29px; color:#fff; font-weight:bold; font-size:14px; padding-left:15px;}
+.dydjsCon{font-size:14px; line-height:22px; padding:9px; width:250px;}
+.dydjsCon p{text-indent:30px;}
+.dydjsCon a{color:#023c72; text-decoration:underline;}
+.dydjsCon a:hover{color:#f00;}
+
+
+.banner2{width:960px; margin:0 auto 10px;}
+
+.newsIndex{width:295px; border:1px solid #ddd; margin-right:10px; padding:8px; float:left; margin-bottom:10px; overflow:hidden;}
+.newsIndex h2{width:295px; font-size:16px; color:#002654; line-height:30px; background:url(images/newsTit.jpg) no-repeat bottom; margin-bottom:10px;}
+.newsIndex h2 span{float:right; color:#7c7c7c; font-size:12px;}
+.newsIndex h2 span a{color:#7c7c7c; text-decoration:none;}
+.newsIndex h2 span a:hover{color:#333; text-decoration:underline;}
+.newsIndex li{width:295px; height:24px; line-height:24px; font-size:14px; color:#000;}
+.newsIndex li span{float:right; color:#7c7c7c; font-size:12px; line-height:24px;}
+.newsIndex li a{color:#000; text-decoration:none;}
+.newsIndex li a:hover{color:#f00; text-decoration:underline;}
+
+.newsIndex2{float:right; width:296px; border:1px solid #ddd; padding:8px; margin-bottom:10px;}
+.newsIndex2 h2{width:295px; font-size:16px; color:#002654; line-height:30px; background:url(images/newsTit.jpg) no-repeat bottom; margin-bottom:10px;}
+.newsIndex2 h2 span{float:right; color:#7c7c7c; font-size:12px;}
+.newsIndex2 h2 span a{color:#7c7c7c; text-decoration:none;}
+.newsIndex2 h2 span a:hover{color:#333; text-decoration:underline;}
+.newsIndex2 li{width:295px; height:24px; line-height:24px; font-size:14px; color:#000;}
+.newsIndex2 li span{float:right; color:#7c7c7c; font-size:12px; line-height:24px;}
+.newsIndex2 li a{color:#000; text-decoration:none;}
+.newsIndex2 li a:hover{color:#f00; text-decoration:underline;}
+
+.bottom{background:url(images/bottomBg.jpg) repeat-x; padding:20px 0 10px;}
+.bottom p{text-align:center; line-height:30px;}
+.bottom a{color:#000; text-decoration:none;}
+.bottom a:hover{color:#f00; text-decoration:underline;}
+
+
+/*list*/
+.dqwz{width:960px; margin:0 auto 5px; font-size:14px; line-height:30px;}
+.dqwz a{color:#000; text-decoration:none;}
+.dqwz a:hover{color:#f00; text-decoration:underline;}
+
+.newsList{width:662px; border:1px solid #ddd; padding:10px; font-size:14px; margin-bottom:10px; overflow:hidden;}
+.newsList h2{width:662px; font-size:16px; color:#002654; line-height:30px; background:url(images/newsTit.jpg) no-repeat bottom; margin-bottom:10px;}
+.newsList ul{margin-bottom:20px; overflow:hidden;}
+.newsList li{width:662px; line-height:35px; color:#0d346b; height:35px;}
+.newsList li a{color:#0d346b; text-decoration:none;}
+.newsList li a:hover{color:#f00; text-decoration:underline;}
+.newsList li span{float:right; color:#767676; font-size:12px; margin-right:20px;}
+
+
+.tuijian{width:268px; border:1px solid #ddd; margin-bottom:10px; }
+.tuijianTit{background:url(images/titBg.jpg) no-repeat; line-height:29px; height:29px; color:#fff; font-weight:bold; font-size:14px; padding-left:15px;}
+.tuijianCon{font-size:12px; line-height:22px; padding:9px; width:250px;}
+.tuijianCon ul{margin-bottom:10px;}
+.tuijianCon li{width:250px; line-height:25px; height:25px; overflow:hidden;}
+.tuijianCon li a{color:#0d346b; text-decoration:none;}
+.tuijianCon li a:hover{color:#f00; text-decoration:underline;}
+
+/*detail*/
+.detail{width:918px; border:1px solid #ddd; padding:20px; margin:0 auto 10px;}
+.detail img{display:block; text-align:center; margin-bottom:30px;}
+.detail h2{text-align:center; font-size:16px; color:#000; line-height:40px;}
+.detail h3{text-align:center; font-size:12px; color:#767676; padding-bottom:20px; border-bottom:1px dotted #ccc; margin-bottom:20px; font-weight:normal; word-spacing:50px; line-height:30px;}
+.detail p{width:850px; margin:0 auto 20px; overflow:hidden; font-size:14px; line-height:30px;}
